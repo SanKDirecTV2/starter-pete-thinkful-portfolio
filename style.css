@@ -21,6 +21,56 @@ header {
   text-align: center;
 }
 
+.headerElements {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center; 
+}
+
+/* About */
+.center {
+  text-align: center;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  text-align: left;
+}
+
+.section2 {
+  text-align: left;
+}
+
+/* Portfolio section */
+#portfolio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#portfolio p {
+  text-align: center;
+  font-size: 15px;
+} 
+
+.portfolioH2 {
+  margin: 0 0 -50px 0;
+}
+
+.item {
+  flex: 1;
+  padding: 5px;
+  margin: 2px;
+}
+
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -75,4 +125,8 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.hr1 {
+  margin: 0px 0px 70px 0
 }
